@@ -1,0 +1,68 @@
+ .category-card {
+    background: #F7FCF8;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+
+}
+ .category-card:hover {
+    transform: translateY(-5px);
+    background: url('/images/carsbg.png') no-repeat center/cover;
+    background-size: 100% 100%;
+    box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+ .arrow {
+    margin-right: 10rem;
+}
+
+.exploreSec .category-img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.exploreSec .category-body {
+    padding: 20px;
+    text-align: right;
+}
+
+.exploreSec .category-title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: hsl(143, 36%, 26%);
+}
+
+.exploreSec .category-text {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.exploreSec .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #2a5a3c;
+    font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+    .exploreSec .category-img {
+        height: 160px;
+    }
+
+    .exploreSec .section-title {
+        font-size: 1.75rem;
+        margin-bottom: 30px;
+    }
+
+    .exploreSec .category-card {
+        width: 100%;
+    }
+
+    .exploreSec .category-body {
+        padding: 10px;
+    }
+}
